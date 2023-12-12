@@ -1,19 +1,20 @@
 <template>
-  <Layout>
-    home
-  </Layout>
+  <v-app>
+    <v-main>
+      <v-container>
+        <v-text-field label="Message" v-model="message"></v-text-field>
+      </v-container>
+    </v-main>
+  </v-app>
+
 </template>
 
-<style>
-.position-right-bottom {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
 
-.with-box {
-  border: 2px solid #000; 
-  padding: 20px; 
-  height: 200px; 
-}
-</style>
+<script>
+export default {
+  name: 'App',
+  data: () => ({
+    message: '',
+  }),
+};
+</script>
