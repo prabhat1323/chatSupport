@@ -1,20 +1,6 @@
 <template>
-  <v-app>
-    <v-main>
-      <v-container>
-        <v-text-field label="Message" v-model="message"></v-text-field>
-      </v-container>
-    </v-main>
-  </v-app>
-
+  <div class="flex justify-between">
+     <h2>hie</h2>
+     <h2>ab</h2>
+  </div>
 </template>
-
-
-<script>
-export default {
-  name: 'App',
-  data: () => ({
-    message: '',
-  }),
-};
-</script>
